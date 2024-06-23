@@ -1,0 +1,247 @@
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+
+    body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    }
+
+    .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height:fit-content;
+    min-height: 1000px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    top:0;
+    background-color: lightblue;
+    }
+
+    #data{
+        display:flex;
+        flex-flow: column;
+      }
+      #l{order:1;}
+      #ltt{order:2;}
+      #r{order:3;}
+      #rtt{order:4;}
+
+    #myform, .title{
+    text-align: center;
+    } 
+
+    #a1 {
+    text-align:center;
+    display:none;     
+    }
+
+    #a2{
+    background-color: lightgreen;
+    border: 2px solid black;
+    display: inline;
+    }
+
+    #achart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    }
+
+    .key {
+    width: 20px;
+    margin-right: 20px;
+    }
+
+    .bar-container {
+    display: flex;
+    align-items: center;
+    }
+
+    .bar {
+    height: 20px;
+    margin-right: 5px;
+    background-color: green;
+    }
+
+    #stat{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+    }
+
+    #lh, #rh {
+    /* border: 1px solid black !important; */
+    margin-bottom: 10px;
+    display: inline-flex !important;
+    }
+    
+    #tf, #td, #scd, #dh, #ta, #oa, #sca, #ah{
+        text-align: left;
+    }
+
+    #lt, #rt {
+        display:none;     
+    }
+
+    #ltc, #rtc{
+        font-weight:bold !important;
+    }
+      
+}
+
+@media only screen and (min-width: 1000px) { 
+
+    body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    text-align: left !important;
+    }
+
+    .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height:fit-content;
+    min-height: 1000px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    top:0;
+    background-color: lightblue;
+    text-align: center;
+    overflow-x: scroll;
+    }
+
+    .title {
+    margin-bottom: 0px;
+    text-align: left;
+    }
+
+    #myform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #a1 {
+    text-align:center;
+    display:none;     
+    }
+
+    #a2{
+    background-color: lightgreen;
+    border: 2px solid black;
+    display: inline;
+    }
+
+    #achart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    }
+
+    .key {
+    width: 20px;
+    margin-right: 20px;
+    }
+
+    .bar-container {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    }
+
+    .bar {
+    height: 10px;
+    width: 0;
+    margin-right: 10px;
+    background-color: green;
+    }
+
+    #data {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1200px;
+    flex-wrap: wrap;
+    }
+
+    #l {
+    margin-left: 50px;
+    margin-right: 300px;
+    text-align: left;
+    }
+
+    #r {
+    margin-right: 30px;
+    text-align: left;
+    }
+
+    #stat{
+    text-align: left;
+    }
+    
+    #lh, #rh {
+    /* border: 1px solid black !important; */
+    /* border-style: double; */
+    margin-bottom: 10px;
+    text-align: center !important;
+    display: inline-flex !important;
+    margin-left: 100px;
+    }
+
+    #lt, #rt {
+        display:none;     
+    }
+
+
+
+    #ltc, #rtc{
+        font-weight:bold !important;
+        
+    }
+
+    #ha{
+        text-align: center;
+    }
+
+    #ho{
+        text-align: center;
+    }
+
+    #dh, #ah{
+        margin-left: -20px;
+        margin-bottom: 4px;
+    }
+
+    #tf, #td, #scd, #ta, #oa, #sca{
+        margin-left: -20px;
+    }
+
+
+    
+}
+
+
+
