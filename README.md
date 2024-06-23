@@ -1,6 +1,6 @@
 Prerequisite
 
-Set up a LAMP docker container.##
+Set up a LAMP docker container.
 ##
 Download the zip file and unzip at a directory at your own choice.\\
 Run the docker desktop program.\
