@@ -8,7 +8,7 @@ You should see a structure as follows:\
    docker_set\
    ├── docker-compose.yml\
    ├── mysql\
-   |     ├── data\
+   |_____├── data\
    ├── php-apache\
    |     ├── Dockerfile\
    └── public_html\
