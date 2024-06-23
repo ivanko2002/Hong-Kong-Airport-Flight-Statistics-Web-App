@@ -7,13 +7,13 @@ Download the zip file and unzip at a directory at your own choice.
 Run the docker desktop program.\
 Open a terminal at the folder and enter command "docker compose up".\
 You should see a structure as follows:\
-   docker_set<br>
-   ├── docker-compose.yml<br>
-   ├── mysql<br>
-         ├── data<br>
-   ├── php-apache<br>
-         ├── Dockerfile<br>
-   └── public_html<br>
+docker_set<br>
+├── docker-compose.yml<br>
+├── mysql<br>
+      ├── data<br>
+├── php-apache<br>
+      ├── Dockerfile<br>
+└── public_html<br>
     
 Download the public_html folder and the folder structure should look like this\
    public_html\
