@@ -1,8 +1,10 @@
 Prerequisite
 
 Set up a LAMP docker container.
-#
-Download the zip file and unzip at a directory at your own choice.\\
+<br>
+Download the zip file and unzip at a directory at your own choice.
+<br>
+<br>
 Run the docker desktop program.\
 Open a terminal at the folder and enter command "docker compose up".\
 You should see a structure as follows:\
